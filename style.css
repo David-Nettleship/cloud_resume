@@ -162,6 +162,13 @@ ul
   color:rgba(0,0,0,.75);
 }
 
+#certs
+{
+    position: relative;
+    width: 100px;
+    border-radius: 20px;
+}
+
 @media screen and (max-width: 48em) {
 	.right,.left
 	{
