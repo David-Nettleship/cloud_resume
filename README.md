@@ -3,4 +3,4 @@
 
 My take on the AWS Cloud Resume Challenge
 
-[david.nettleship.resume.co.uk](david.nettleship.resume.co.uk)
+[cv.david.nettleship.resume.co.uk](https://cv.david-nettleship.co.uk/index.html)

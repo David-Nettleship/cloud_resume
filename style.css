@@ -7,34 +7,33 @@ html
 	font-size:100%;
 }
 
-body
-{
+body {
 	-webkit-font-smoothing:antialiased;
 	color:#333332;
 	font-family:Lora, serif;
-	font-size:18px;
+	font-size:14px;
 	font-weight:400;
 	line-height:1.4;
 	text-rendering:optimizeLegibility;
 }
 
-.skill-set li:hover
-{
+br {
+	line-height: 70%;
+}
+
+.skill-set li:hover {
 	background:#3498db;
 }
 
-h1
-{
+h1 {
 	color:rgba(0,0,0,.75);
 }
 
-.wrapper
-{
+.wrapper {
 	height:100%;
 }
 
-.left
-{
+.left {
 	background-color:rgba(0,0,0,.025);
 	border-right:1px solid rgba(0,0,0,.05);
 	float:right;
@@ -43,11 +42,9 @@ h1
 	min-width:256px;
 	position:fixed;
 	width:33.33%;
-  
 }
 
-.right
-{
+.right {
 	float:right;
 	height:100%;
 	position:relative;
@@ -55,98 +52,92 @@ h1
 }
 
 
-.name-hero
-{
+.name {
 	background:rgba(0,0,0,.001);
 	bottom:0;
-	height:290px;
+	height:220px;
 	left:0;
 	margin:auto;
 	position:absolute;
 	right:0;
-	top:0;
+	top:50px;
 	width:85%;
 }
 
-.me-img
-{
-	background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/36334/profile/profile-512_4.jpg) no-repeat center center ;
+.me-img {
 	background-size:100%;
-  background-position:0px;
+    background-position:0px;
 	border-radius:100%;
-	height:150px;
+	height:210px;
 	margin:0 auto;
+	top:50px;
 	position:relative;
-	width:150px;
+	width:220px;
 }
 
-.name-hero h1
-{
+.profile-photo {
+    position: relative;
+    width: 220px;
+    height: 205px;
+    border-radius: 65px;
+}
+
+.name h1 {
 	font-family:Open Sans, sans-serif;
-	font-size:1.5em;
+	font-size:1.8em;
 	text-align:center;
 }
 
-.name-hero h1 em
-{
+.name h1 em {
 	color:rgba(0,0,0,.3);
 	font-style:normal;
 	font-weight:700;
 }
 
-.name-hero p
-{
+.name p {
 	color:rgba(0,0,0,.5);
-	font-size:.75em;
+	font-size:0.9em;
 	line-height:1.5;
 	margin:0 8px 0 0;
 	text-align:center;
 }
 
-.name-hero .name-text
-{
+.name .name-text {
 	margin:0 auto;
 	width:85%;
 }
 
-.inner
-{
+.inner {
 	margin:0 auto;
 	max-width:975px;
 	padding:3em;
 }
 
-.inner h1
-{
+.inner h1 {
 	font-size:1.75em;
 }
 
-.inner p
-{
+.inner p {
 	color:rgba(0,0,0,.3);
 }
 
-.inner p em
-{
+.inner p em {
 	color:rgba(0,0,0,.75);
 	font-style:normal;
 }
 
-.inner section
-{
+.inner section {
 	margin:100px auto;
 }
 
-ul
-{
+ul {
 	list-style-type:none;
 	margin-top:-10px;
 	max-width:570px;
 	padding:0;
 }
 
-.skill-set li
-{
+.skill-set li {
 	background:rgba(0,0,0,.75);
 	border-radius:5px;
 	color:#FFF;
@@ -157,40 +148,43 @@ ul
 	text-align:justify;
 }
 
-.detail li
-{
+.detail li {
   color:rgba(0,0,0,.75);
 }
 
-#certs
-{
+#certs {
     position: relative;
     width: 100px;
     border-radius: 20px;
 }
 
+.link {
+	text-decoration: none;
+	color: #708090;
+	font-weight: bold;
+}
+
 @media screen and (max-width: 48em) {
 	.right,.left
 	{
-		float:none;
+	float:none;
     position:relative !important;
-		width:100%;
+	width:100%;
     min-height:500px;
 	}
-  .handmade {
-  text-align:center !important;
-  margin-top:0px !important;
+    .handmade {
+    text-align:center !important;
+    margin-top:0px !important;
 }
 
 @media screen and (max-width: 75em) {
-    body
-{ font-size:16px;}
+    body { font-size:16px;}
 }
 
 @media screen and (max-width: 60em) {
-    body
-{ font-size:14px;}
+    body { font-size:14px;}
 }
+
 .clearfix:after {
    content: " "; /* Older browser do not support empty content */
    visibility: hidden;
@@ -198,10 +192,12 @@ ul
    height: 0;
    clear: both;
 }
+
 .handmade {
   text-align:right;
   margin-top:100px;
 }
+
 .handmade em {
   font-family: 'Shadows Into Light', cursive;
   font-size: 1.25em;
